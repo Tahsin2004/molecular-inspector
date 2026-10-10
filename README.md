@@ -23,6 +23,12 @@ Clinical resistance arises predominantly via single amino acid substitutions wit
 
 ---
 
+## Structural Clash Figure
+
+![Steric clash model of the Rifampicin binding pocket](./figures/molecular_steric_clash.png)
+
+*Figure: Rifampicin (RFP) in the RNA polymerase beta-subunit pocket with the Ser456Leu steric clash highlighted in red.*
+
 ## Repository Structure
 
 ```text
@@ -31,7 +37,8 @@ molecular-inspector/
 |   |-- 5uhc.cif                # Macromolecular coordinate file (mmCIF)
 |   `-- rpoB_interactome.tsv    # STRING functional interaction network
 |-- figures/
-|   `-- molecular_steric_clash.png # Rendered 3D binding pocket and clash model
+|   |-- molecular_steric_clash.png # Rendered 3D binding pocket and clash model
+|   `-- rpoB_5UHC_clash.pse       # PyMOL session for interactive inspection
 |-- src/
 |   |-- inspector.py            # Coordinate parser & KD-tree pocket scanner
 |   |-- network_builder.py      # STRING REST API client & hub ranker

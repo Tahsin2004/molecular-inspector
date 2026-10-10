@@ -1,4 +1,4 @@
-﻿reinitialize
+reinitialize
 bg_color white
 set ray_shadows, 0
 set antialias, 2
@@ -32,4 +32,3 @@ set sphere_transparency, 0.40, pocket_res or rfp
 zoom rfp or pocket_res, 7
 ray 1600, 1200
 png figures/molecular_steric_clash.png, dpi=300
-quit
